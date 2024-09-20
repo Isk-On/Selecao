@@ -1,42 +1,42 @@
 [
     {
-        "name": "MoYu AoSu V7 4x4 (Triple Track Magnetic UV)",
+        "name": "CircleCube",
         "price": "673 000",
         "image": "images/prod/circleCube.png",
         "tags": ["Pre-order", "New In"],
         "magnet": true
     },
     {
-        "name": "MoYu AoSu V7 4x4 (Dual Track Magnetic UV)",
+        "name": "Cilinder",
         "price": "569 000",
         "image": "images/prod/cilinder.png",
         "tags": ["Pre-order", "New In"],
         "magnet": true
     },
     {
-        "name": "DianSheng Galaxy Megaminx M (Ballcore)",
+        "name": "MirrorCube",
         "price": "310 000",
         "image": "images/prod/MirrorCube.png",
         "tags": ["Pre-order", "New In"],
         "magnet": false
     },
     {
-        "name": "DianSheng Galaxy Megaminx M (Ballcore)",
-        "price": "310 000",
+        "name": "Cube",
+        "price": "210 000",
         "image": "images/prod/cube.png",
         "tags": ["Pre-order", "New In"],
         "magnet": false
     },
     {
-        "name": "DianSheng Galaxy Megaminx M (Ballcore)",
-        "price": "310 000",
+        "name": "Piramix",
+        "price": "510 000",
         "image": "images/prod/Piramix.png",
         "tags": ["Pre-order", "New In"],
         "magnet": false
     },
     {
-        "name": "DianSheng Galaxy Megaminx M (Ballcore)",
-        "price": "310 000",
+        "name": "4x4Cube",
+        "price": "140 000",
         "image": "images/prod/4x4Cube.png",
         "tags": ["Pre-order", "New In"],
         "magnet": false

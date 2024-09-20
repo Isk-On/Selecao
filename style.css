@@ -437,12 +437,12 @@ ul {
     gap: 30px;
   }
 
-  .anchors {
-    flex-direction: column;
+  .introduction{
+    height: 80vh;
   }
 
-  .slide img {
-    width: 100% !important;
+  .anchors {
+    flex-direction: column;
   }
 }
 

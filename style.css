@@ -9,6 +9,7 @@ body {
 
   background-attachment: fixed;
   background-position: center;
+  overflow-x: hidden !important; 
   background-size: cover;
 
   scroll-behavior: smooth;

@@ -18,7 +18,7 @@ const showModal = (product) => {
     const buyButton = document.getElementById('buy-button');
     buyButton.onclick = () => {
         videoContainer.style.display = 'block';
-        youtubeVideo.src = 'https://www.youtube.com/embed/ваш_видео_ID'; // Замените 'ваш_видео_ID' на ID вашего видео
+        youtubeVideo.src = 'https://www.youtube.com/embed/op0oJXf0cSI?si=NlJLhmTwpca0alI6';
     };
 
     const closeButton = document.querySelector('.modal-close');
@@ -36,7 +36,7 @@ const showModal = (product) => {
 const createProductCard = (product) => {
     const tagsHtml = product.tags.map(tag => `<span>${tag}</span>`).join("");
     const magnetHtml = product.magnet
-        ? '<div class="magnet-icon"><img src="/images/Magnet.png"></div>'
+        ? '<div class="magnet-icon"><img src="images/Magnet.png"></div>'
         : "";
     
     return `

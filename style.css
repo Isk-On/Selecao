@@ -5,7 +5,7 @@
 }
 body {
   background-color: #1b1919;
-  background-image: url("/images/back-img.png");
+  background-image: url("images/back-img.png");
 
   background-attachment: fixed;
   background-position: center;
@@ -438,7 +438,7 @@ ul {
   }
 
   .introduction{
-    height: 80vh;
+    height: 60vh !important;
   }
 
   .anchors {

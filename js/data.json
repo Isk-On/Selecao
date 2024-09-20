@@ -2,84 +2,77 @@
     {
         "name": "MoYu AoSu V7 4x4 (Triple Track Magnetic UV)",
         "price": "673 000",
-        "image": "/images/prod/circleCube.png",
+        "image": "images/prod/circleCube.png",
         "tags": ["Pre-order", "New In"],
         "magnet": true
     },
     {
         "name": "MoYu AoSu V7 4x4 (Dual Track Magnetic UV)",
         "price": "569 000",
-        "image": "/images/prod/cilinder.png",
+        "image": "images/prod/cilinder.png",
         "tags": ["Pre-order", "New In"],
         "magnet": true
     },
     {
         "name": "DianSheng Galaxy Megaminx M (Ballcore)",
         "price": "310 000",
-        "image": "/images/prod/MirrorCube.png",
+        "image": "images/prod/MirrorCube.png",
         "tags": ["Pre-order", "New In"],
         "magnet": false
     },
     {
         "name": "DianSheng Galaxy Megaminx M (Ballcore)",
         "price": "310 000",
-        "image": "/images/prod/cube.png",
+        "image": "images/prod/cube.png",
         "tags": ["Pre-order", "New In"],
         "magnet": false
     },
     {
         "name": "DianSheng Galaxy Megaminx M (Ballcore)",
         "price": "310 000",
-        "image": "/images/prod/Piramix.png",
+        "image": "images/prod/Piramix.png",
         "tags": ["Pre-order", "New In"],
         "magnet": false
     },
     {
         "name": "DianSheng Galaxy Megaminx M (Ballcore)",
         "price": "310 000",
-        "image": "/images/prod/4x4Cube.png",
+        "image": "images/prod/4x4Cube.png",
         "tags": ["Pre-order", "New In"],
         "magnet": false
     },   
     {
-        "name": "DianSheng Galaxy Megaminx M (Ballcore)",
-        "price": "310 000",
-        "image": "/images/prod/4x4Cube.png",
+        "name": "Mosaic",
+        "price": "40 000",
+        "image": "images/mosaic.png",
         "tags": ["Pre-order", "New In"],
         "magnet": false
     }, 
     {
-        "name": "DianSheng Galaxy Megaminx M (Ballcore)",
-        "price": "310 000",
-        "image": "/images/prod/4x4Cube.png",
+        "name": "PUZZLE",
+        "price": "30 000",
+        "image": "images/PUZZLE.png",
         "tags": ["Pre-order", "New In"],
         "magnet": false
     }, 
     {
-        "name": "DianSheng Galaxy Megaminx M (Ballcore)",
-        "price": "310 000",
-        "image": "/images/prod/4x4Cube.png",
+        "name": "Mosaic",
+        "price": "510 000",
+        "image": "images/mosaic2-removebg-preview.png",
         "tags": ["Pre-order", "New In"],
         "magnet": false
     }, 
     {
-        "name": "DianSheng Galaxy Megaminx M (Ballcore)",
-        "price": "310 000",
-        "image": "/images/prod/4x4Cube.png",
+        "name": "Mosaic",
+        "price": "110 000",
+        "image": "images/puzzle3-removebg-preview.png",
         "tags": ["Pre-order", "New In"],
         "magnet": false
     }, 
     {
-        "name": "DianSheng Galaxy Megaminx M (Ballcore)",
-        "price": "310 000",
-        "image": "/images/prod/4x4Cube.png",
-        "tags": ["Pre-order", "New In"],
-        "magnet": false
-    },
-    {
-        "name": "DianSheng Galaxy Megaminx M (Ballcore)",
-        "price": "310 000",
-        "image": "/images/prod/4x4Cube.png",
+        "name": "Puzzle",
+        "price": "610 000",
+        "image": "images/puzzle2-removebg-preview.png",
         "tags": ["Pre-order", "New In"],
         "magnet": false
     }

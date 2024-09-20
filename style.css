@@ -65,7 +65,7 @@ header {
   /* content: ''; */
 }
 
-.header-container{
+.header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -80,25 +80,24 @@ header {
   align-items: center;
   /* flex-direction: column; */
   justify-content: flex-start;
-  
+
   width: 100%;
   color: white;
-  
+
   h3 {
     font-size: 2em;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
   }
 }
- 
 
-.logo-and-text{
+.logo-and-text {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-} 
+}
 
-.anchors{
+.anchors {
   display: flex;
   width: 100%;
   justify-content: flex-end;
@@ -106,19 +105,17 @@ header {
   gap: 30px;
 }
 
-
-.anchors li a{
+.anchors li a {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
 
   text-decoration: none;
   color: white;
   font-size: 1.5em;
-  
 }
 
-.anchors li{
-  width: max-content;  
+.anchors li {
+  width: max-content;
 }
 
 .video_container {
@@ -332,15 +329,72 @@ ul {
   list-style: none;
 }
 
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #3a6163;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+
+  h3 {
+    color: #ffffffd0;
+  }
+
+  .modal-price {
+    color: #9a9a9a;
+  }
+
+  border-radius: 5px;
+  max-width: 800px;
+  position: relative;
+
+  button {
+    padding: 5px 20px;
+    border: solid 2px;
+    border-radius: 8%;
+    background-color: #3a6163;
+  }
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+#modal-product-details img {
+  max-width: 50%;
+}
+
+#buy-button {
+  margin-top: 20px;
+}
+
 @media only screen and (max-width: 950px) {
-  .main-content{
+  .main-content {
     flex-direction: column;
     gap: 40px;
   }
 }
 
 @media only screen and (max-width: 888px) {
-  .header-container{
+  .header-container {
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -355,25 +409,62 @@ ul {
     align-items: center;
     justify-content: center;
   }
-  
-  .our-advantages{
+
+  .our-advantages {
     gap: 50px !important;
     flex-direction: column;
   }
-  .slide img{
+  .slide img {
     width: 60% !important;
   }
 
-  .slider-section{
+  .slider-section {
     margin: 0;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .main-content img{
+  .main-content img {
     width: 75% !important;
   }
-  .slide img{
+  .slide img {
     width: 90% !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .header-container {
+    gap: 30px;
+  }
+
+  .anchors {
+    flex-direction: column;
+  }
+
+  .slide img {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .logo-and-text {
+    flex-direction: column;
+  }
+
+  .why-me {
+    h1 {
+      font-size: 2em;
+    }
+  }
+  .intro-text {
+    h1 {
+      font-size: 2em;
+    }
+  }
+
+  .slider-section {
+    h1 {
+      font-size: 1.3em;
+    }
   }
 }

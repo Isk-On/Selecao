@@ -15,6 +15,13 @@ body {
   scroll-behavior: smooth;
 }
 
+.video_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 header {
   width: 100%;
   padding: 0 30px;
@@ -315,6 +322,8 @@ header {
   width: 30px;
 }
 
+
+
 /* .text {
   display: flex;
   justify-content: center;
@@ -369,6 +378,12 @@ ul {
     border-radius: 8%;
     background-color: #3a6163;
   }
+}
+
+#modal-product-details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .modal-close {

@@ -6,18 +6,23 @@ const showModal = (product) => {
     const modalPrice = document.getElementById('modal-product-price');
     const videoContainer = document.getElementById('video-container');
     const youtubeVideo = document.getElementById('youtube-video');
+    const instagram = document.getElementById('Instagram');
     
     modalImage.src = product.image;
     modalName.textContent = product.name;
     modalTags.innerHTML = product.tags.map(tag => `<span>${tag}</span>`).join("");
     modalPrice.textContent = `${product.price} som`;
     youtubeVideo.src = ''; 
+    instagram.src = 'https://www.instagram.com/selecao.store.uz?igsh=MTkwaTZzeDJkaWsxNA==';
     
     modal.style.display = 'flex';
 
     const buyButton = document.getElementById('buy-button');
     buyButton.onclick = () => {
-        videoContainer.style.display = 'block';
+        videoContainer.style.display = 'flex';
+        videoContainer.style.justifyContent = 'center';
+        videoContainer.style.flexDirection = 'column';
+
         youtubeVideo.src = 'https://www.youtube.com/embed/op0oJXf0cSI?si=NlJLhmTwpca0alI6';
     };
 
@@ -46,6 +51,7 @@ const createProductCard = (product) => {
             <h3>${product.name}</h3>
             <div class="price">${product.price} som</div>
             ${magnetHtml}
+            
         </div>
     `;
 };
